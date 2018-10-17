@@ -1,7 +1,7 @@
-  $(document).ready(function() {
-    $("#scheduler").submit(function(event) {
-      debugger;
-      $(".myModal").modal();
-      event.preventDefault();
-    });
+$(document).ready(function() {
+  $("#scheduler").submit(function(event) {
+
+    $(".modal").modal();
+    event.preventDefault();
   });
+});
